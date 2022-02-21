@@ -1,0 +1,23 @@
+#container{
+    display:flex;
+    /* border:1px solid black; */
+  }
+  #sidebar{
+    flex:2;
+    /* border:1px solid black; */
+  }
+  #main{
+    flex:8;
+    /* border:1px solid black; */
+  }
+
+  #main{
+    display:grid;
+    grid-template-columns: repeat(4,23%);
+    grid-gap:4%;
+  }
+  
+  #box>img{
+    width:100%;
+    height:60%;
+  }
